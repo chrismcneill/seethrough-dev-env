@@ -14,9 +14,14 @@ echo "Node and npm install complete"
 
 echo "Location of Node"
 which node
+echo "Node version: "
+node -v
 
 echo "Location of npm"
 which npm
+echo "npm version"
+npm -v
+
 
 # expressJS
 # required modules
