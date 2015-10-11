@@ -10,3 +10,4 @@ apt-get install dos2unix -q -y
 find /vagrant/scripts -type f -exec dos2unix {} \;
 
 su - vagrant /vagrant/scripts/setup-java.sh
+su - vagrant /vagrant/scripts/setup-node.sh

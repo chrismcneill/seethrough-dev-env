@@ -1,6 +1,22 @@
 #!/usr/bin/env bash
 
-echo "This would install Node"
+echo "Going to install Node (and npm)"
+
+apt-get -y install wget build-essential
+
+wget http://nodejs.org/dist/v0.9.9/node-v0.9.9.tar.gz
+tar -xvf node-v0.9.9.tar.gz
+cd node-v0.9.9
+./configure
+make
+sudo make install
+echo "Node and npm install complete"
+
+echo "Location of Node"
+which node
+
+echo "Location of npm"
+which npm
 
 # expressJS
 # required modules
