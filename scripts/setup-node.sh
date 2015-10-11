@@ -23,6 +23,6 @@ echo "npm version"
 npm -v
 
 # Install expressJS
-npm install express --save
+# npm install express --save
 
 # required modules
