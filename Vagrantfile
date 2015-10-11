@@ -38,7 +38,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.network "private_network", ip: "10.0.0.15"
 
   config.vm.provider :virtualbox do | vbox |
-    vbox.gui = false
+    vbox.gui = true
     vbox.name = "seethrough-dev-env"
 
     # Use VBoxManage to customize the VM. For example to change memory:
