@@ -1,0 +1,5 @@
+#!/bin/sh
+#export MOZILLA_FIVE_HOME="/usr/lib/mozilla/"
+export SUBLIME_HOME="/opt/sublime"
+
+$SUBLIME_HOME/sublime_text "$*"
